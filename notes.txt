@@ -1,0 +1,25 @@
+create server folder 
+npm init -y
+add "type":"module" in package.json  
+npm install --save-dev nodemon
+npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose
+
+bcrypt                         for hashing
+body-parser                    for req.body parsing 
+cors                           for cross origin requests 
+dotenv                         for .env 
+gridfs-stream                  it divides files into chunks and saves them into diff documents 
+multer multer-gridfs-storage   Multer is a node. js middleware for handling multipart/form-data ,primarily used for uploading files
+helmet                         Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+morgan                         morgan is a Node. js and Express middleware to log HTTP requests and errors, and simplifies the process
+jsonwebtoken                   generates a jwt 
+mongoose                       Mongoose provides a straight-forward, schema-based solution to model your application data.
+
+
+create folder controllers than create file auth.js 
+create folder models than create User.js or anything u want to model as a schema 
+
+
+run server --> nodemon index.js
+client--> npm start
+
